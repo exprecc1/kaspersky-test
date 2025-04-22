@@ -1,0 +1,50 @@
+[
+  {
+    "ID": 260855433,
+    "TI": "Antivirus leggero: I migliori e più efficaci (free e a pagamento) 2024",
+    "AB": "Una panoramica completa sui migliori antivirus leggeri disponibili nel 2024...",
+    "URL": "https://example.com/antivirus-leggero-2024",
+    "DP": "2024-01-18T00:00:00",
+    "DOM": "punto-inifori.it",
+    "SENT": "neutral",
+    "LANG": "it",
+    "AU": ["Emily C.", "Taormina A."],
+    "FAV": "/favicons/antivirus.png",
+    "KW": [
+      { "value": "antivirus", "count": 5 },
+      { "value": "sicurezza", "count": 3 }
+    ],
+    "HIGHLIGHTS": ["I migliori <kw>antivirus</kw> leggeri per il 2024..."],
+    "REACH": 211000,
+    "CNTR": "Austria",
+    "CNTR_CODE": "at",
+    "TRAFFIC": [
+      { "value": "Austria", "count": 0.18 },
+      { "value": "USA", "count": 0.12 }
+    ]
+  },
+  {
+    "ID": 260855434,
+    "TI": "Mobile bankers left vulnerable: 47% of UK consumers manage finances on insecure smartphones",
+    "AB": "New research has revealed that UK consumers carry out online banking on smartphones...",
+    "URL": "https://example.com/mobile-banking-security",
+    "DP": "2025-03-06T21:00:00",
+    "DOM": "globalsecuritymag.com",
+    "SENT": "negative",
+    "LANG": "en",
+    "AU": [],
+    "FAV": "/favicons/security.png",
+    "KW": [
+      { "value": "antivirus", "count": 10 },
+      { "value": "security", "count": 5 }
+    ],
+    "HIGHLIGHTS": ["...with <kw>antivirus</kw> or security software..."],
+    "REACH": 2392,
+    "CNTR": "France",
+    "CNTR_CODE": "fr",
+    "TRAFFIC": [
+      { "value": "India", "count": 0.779 },
+      { "value": "USA", "count": 0.101 }
+    ]
+  }
+]
