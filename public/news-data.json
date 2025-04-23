@@ -1,50 +1,33 @@
 [
   {
     "ID": 260855433,
-    "TI": "Antivirus leggero: I migliori e più efficaci (free e a pagamento) 2024",
-    "AB": "Una panoramica completa sui migliori antivirus leggeri disponibili nel 2024...",
-    "URL": "https://example.com/antivirus-leggero-2024",
-    "DP": "2024-01-18T00:00:00",
-    "DOM": "punto-inifori.it",
-    "SENT": "neutral",
-    "LANG": "it",
-    "AU": ["Emily C.", "Taormina A."],
-    "FAV": "/favicons/antivirus.png",
-    "KW": [
-      { "value": "antivirus", "count": 5 },
-      { "value": "sicurezza", "count": 3 }
-    ],
-    "HIGHLIGHTS": ["I migliori <kw>antivirus</kw> leggeri per il 2024..."],
-    "REACH": 211000,
-    "CNTR": "Austria",
-    "CNTR_CODE": "at",
-    "TRAFFIC": [
-      { "value": "Austria", "count": 0.18 },
-      { "value": "USA", "count": 0.12 }
-    ]
-  },
-  {
-    "ID": 260855434,
     "TI": "Mobile bankers left vulnerable: 47% of UK consumers manage finances on insecure smartphones",
-    "AB": "New research has revealed that UK consumers carry out online banking on smartphones...",
-    "URL": "https://example.com/mobile-banking-security",
+    "AB": "Mobile bankers left vulnerable: 47% of UK consumers manage finances on insecure smartphones\nAugust 2020 by Kaspersky\nNew research has revealed that UK consumers carry out online banking on smartphones and devices that are potentially vulnerable to a security breach, despite making sure they keep their desktop or laptop computers safe. In a study commissioned by Kaspersky, nearly half (47%) of smartphone owners who use a banking app don't protect their mobile device with antivirus or security software...",
+    "URL": "https://www.globalsecuritymag.com/Mobile-bankers-left-vulnerable-47,20200819,101944.html",
     "DP": "2025-03-06T21:00:00",
     "DOM": "globalsecuritymag.com",
     "SENT": "negative",
     "LANG": "en",
-    "AU": [],
-    "FAV": "/favicons/security.png",
+    "AU": ["Yaroslav Kanaev"],
+    "FAV": "/favicons/e65d69dc71ab539384fcc63062efdd3d.png",
     "KW": [
       { "value": "antivirus", "count": 10 },
-      { "value": "security", "count": 5 }
+      { "value": "kaspersky", "count": 5 },
+      { "value": "security", "count": 5 },
+      { "value": "new", "count": 1 },
+      { "value": "banking", "count": 1 }
     ],
-    "HIGHLIGHTS": ["...with <kw>antivirus</kw> or security software..."],
+    "HIGHLIGHTS": [
+      "…20 by <kw>Kaspersky</kw> <kw>New</kw> research has revealed that UK consumers carry out online banking on smartphones and devices that are potentially vulnerable to a security breach, despite making sure they keep their desktop or laptop computers safe. In a study commissioned by <kw>Kaspersky</kw>…",
+      "…with <kw>antivirus</kw> or security software. More than half (52%) of UK smartphone owners who access bank accounts with their mobile device are worried about their banking app being hacked if their phone was lost or stolen. Despite that fear, 47%[2] are banking on devices without <kw>antivirus</kw>…"
+    ],
     "REACH": 2392,
     "CNTR": "France",
     "CNTR_CODE": "fr",
     "TRAFFIC": [
       { "value": "India", "count": 0.779 },
-      { "value": "USA", "count": 0.101 }
+      { "value": "USA", "count": 0.101 },
+      { "value": "Mexico", "count": 0.036 }
     ]
   }
 ]

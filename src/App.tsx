@@ -1,24 +1,26 @@
-import React, { useEffect } from 'react';
-import { useSelector } from 'react-redux';
-import { fetchNews } from './store/newsSlice';
-import { RootState, useAppDispatch } from './store/store';
-import NewsSnippet from './components/NewsSnippet';
-import { Spin } from 'antd';
-import './App.scss';
+import React, { useEffect } from "react";
+import { useSelector } from "react-redux";
+import { fetchNews } from "./store/newsSlice";
+import { RootState, useAppDispatch } from "./store/store";
+import NewsSnippet from "./components/NewsSnippet";
+import { Spin } from "antd";
+import "./App.scss";
 
 const App: React.FC = () => {
   const dispatch = useAppDispatch();
-  const { newsList, status, error } = useSelector((state: RootState) => state.news);
+  const { newsList, status, error } = useSelector(
+    (state: RootState) => state.news
+  );
 
   useEffect(() => {
     dispatch(fetchNews());
   }, [dispatch]);
 
-  if (status === 'loading') {
+  if (status === "loading") {
     return <Spin size="large" className="loading-spinner" />;
   }
 
-  if (status === 'failed') {
+  if (status === "failed") {
     return <div>Error: {error}</div>;
   }
 
