@@ -52,3 +52,7 @@ export default tseslint.config({
   },
 })
 ```
+
+
+## Deploy
+https://antivirus-news.netlify.app/
