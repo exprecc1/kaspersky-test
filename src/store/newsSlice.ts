@@ -6,7 +6,6 @@ import { loadNewsData } from '@/utils/newsUtils';
 interface NewsState {
   newsList: IData_SnippetNews[];
   favorites: number[]; // IDs избранных новостей
-  readLater: number[]; // IDs новостей "отложенные для чтения"
   currentNews: IData_SnippetNews | null;
   status: 'idle' | 'loading' | 'succeeded' | 'failed';
   error: string | null;
@@ -15,7 +14,7 @@ interface NewsState {
 const initialState: NewsState = {
   newsList: [],
   favorites: [],
-  readLater: [],
+
   currentNews: null,
   status: 'idle',
   error: null,
@@ -53,11 +52,6 @@ const newsSlice = createSlice({
         state.favorites.splice(index, 1);
       } else {
         state.favorites.push(action.payload);
-      }
-    },
-    addToReadLater(state, action: PayloadAction<number>) {
-      if (!state.readLater.includes(action.payload)) {
-        state.readLater.push(action.payload);
       }
     },
   },
