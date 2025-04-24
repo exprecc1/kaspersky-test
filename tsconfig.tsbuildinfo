@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/newssnippet/index.tsx","./src/shared/ui/icons/warning-icon/index.tsx","./src/store/newsslice.ts","./src/store/store.ts","./src/types/news.d.ts","./src/utils/newsutils.ts"],"version":"5.7.3"}

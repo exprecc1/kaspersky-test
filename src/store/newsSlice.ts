@@ -71,13 +71,7 @@ const newsSlice = createSlice({
   },
 });
 
-export const {
-  setNewsLoading,
-  setNewsSuccess,
-  setNewsFailed,
-  setCurrentNews,
-  toggleFavorite,
-  addToReadLater,
-} = newsSlice.actions;
+export const { setNewsLoading, setNewsSuccess, setNewsFailed, setCurrentNews, toggleFavorite } =
+  newsSlice.actions;
 
 export default newsSlice.reducer;
